@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const ManagementSignin = () => {
   return (
@@ -76,12 +77,14 @@ const ManagementSignin = () => {
               </div>
             </div>
 
-            <button
+          <Link to = "/Mangement-Login/Dashboard/overview">
+          <button
               type="submit"
               className="w-full py-3 px-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 transition-all"
             >
               Login
             </button>
+          </Link>
           </form>
 
         </div>
