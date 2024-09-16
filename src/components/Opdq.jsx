@@ -9,7 +9,7 @@ const initialPatients = [
   { id: 3, name: 'Sara Connor', age: 30, department: 'Orthopedics', number: '1230984567' },
 ];
 
-const OPQ = () => {
+const Opdq = () => {
   const [patients, setPatients] = useState(() => {
     const storedData = JSON.parse(localStorage.getItem('dailyPatients')) || {};
     const today = new Date().toDateString();
@@ -190,4 +190,4 @@ const OPQ = () => {
   );
 };
 
-export default OPQ;
+export default Opdq;
