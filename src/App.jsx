@@ -13,7 +13,7 @@ import Doctors from './components/Doctors'
 import Inventory from './components/Inventory'
 import Sidebar from './components/Sidebar'
 import Soverview from './components/Soverview'
-import OPQ from './components/opdq'
+import Opdq from './components/Opdq'
 import Pbedalot from './components/bedalot'
 import Notifications from './components/notification'
 function App(){
@@ -72,7 +72,7 @@ function App(){
     },
     {
       path : '/Staff-Login/Dashboard/opdq',
-      element : <OPQ/>
+      element : <Opdq/>
     },
     {
       path : '/Staff-Login/Dashboard/bedalot',
