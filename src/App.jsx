@@ -6,7 +6,7 @@ import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 import DoctorSignin from './components/DoctorSignin'
 import StaffSignin from './components/StaffSignin'
 import Overview from './components/Overview'
-import Dashboard from './components/Dashboard'
+
 import { GlobalProvider } from './context/Context';
 import Patients from './components/Patients'
 import Doctors from './components/Doctors'
