@@ -1,7 +1,7 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom';
-import cc from '../../public/careconnect_logo.png';
-import avatar from '../../public/avatar.jpg';
-import ccicon from '../../public/cclogoicon.png';
+import cc from '../public/careconnect_logo.png';
+import avatar from '../public/avatar.jpg';
+import ccicon from '../public/cclogoicon.png';
 import { MdDashboard } from "react-icons/md";
 import { IoPeople } from "react-icons/io5";
 import { useState, useEffect } from 'react';
@@ -10,6 +10,7 @@ import { MdInventory2 } from "react-icons/md";
 import { IoMdExit } from "react-icons/io";
 import { HiMenu } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
+
 
 const Dashboard = () => {
   const [activeLink, setActiveLink] = useState(0);
