@@ -70,7 +70,7 @@
 // export default Overview;
 
 import { AiOutlineUser, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
-import avatar from '../public/avatar.jpg';
+import avatar from '../../public/avatar.jpg';
 import Dashboard from './Dashboard';
 import { useGlobalContext } from '../context/Context'; // Adjust the import path as needed
 
