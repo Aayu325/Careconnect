@@ -6,11 +6,16 @@ import { createBrowserRouter , RouterProvider } from 'react-router-dom'
 import DoctorSignin from './components/DoctorSignin'
 import StaffSignin from './components/StaffSignin'
 import Overview from './components/Overview'
-
+import InProgress from './components/InProgress'
 import { GlobalProvider } from './context/Context';
 import Patients from './components/Patients'
 import Doctors from './components/Doctors'
 import Inventory from './components/Inventory'
+import Sidebar from './components/Sidebar'
+import Soverview from './components/Soverview'
+import OPQ from './components/opdq'
+import Pbedalot from './components/bedalot'
+import Notifications from './components/notification'
 function App(){
   const router = createBrowserRouter([
     {
@@ -56,6 +61,30 @@ function App(){
     {
       path : '/',
       element : <Home/>
+    },
+    {
+      path : '/Staff-Login/Dashboard',
+      element : <Sidebar/>
+    },
+    {
+      path : '/Staff-Login/Dashboard/overview',
+      element : <Soverview/>
+    },
+    {
+      path : '/Staff-Login/Dashboard/opdq',
+      element : <OPQ/>
+    },
+    {
+      path : '/Staff-Login/Dashboard/bedalot',
+      element : <Pbedalot/>
+    },
+    {
+      path : '/Staff-Login/Dashboard/notices',
+      element : <Notifications/>
+    },
+    {
+      path : '/Doctor-Login/in-progress',
+      element : <InProgress/>
     },
   ])
   return(
