@@ -13,7 +13,7 @@ import Doctors from './components/Doctors'
 import Inventory from './components/Inventory'
 import Sidebar from './components/Sidebar'
 import Soverview from './components/Soverview'
-import Opdq from './components/Opdq'
+import Opdq from './components/opdq'
 import Pbedalot from './components/bedalot'
 import Notifications from './components/notification'
 function App(){
